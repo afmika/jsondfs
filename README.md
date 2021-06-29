@@ -1,4 +1,8 @@
 # json-dfs
+`json-dfs` is a json array query tool, it simply does a depth-first search on each entries and stops as soon as the current data meets the keyword criteria, then proceeds to the next entries.
+- Easy to use
+- Regex support
+
 ## Basic use
 ### Example 1
 ```javascript
