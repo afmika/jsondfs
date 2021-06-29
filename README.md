@@ -19,7 +19,7 @@ console.log('# Test 1', jsondfs(datas, {
     max_depth : 100
 }));
 
-// supports regex
+// with regex
 console.log('# Test 2', jsondfs(datas, {
     keyword : '^B',
     max_depth : 100
@@ -50,7 +50,7 @@ const datas = [
 	}
 ];
 
-console.log('# Test 3', jsondfs(values, {
+console.log('# Test 3', jsondfs(datas, {
 	keyword : 'hello',
 	max_depth : 10
 }));
