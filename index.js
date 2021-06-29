@@ -1,1 +1,1 @@
-module.exports = require ('./json-dfs');
+module.exports = require ('./jsondfs');

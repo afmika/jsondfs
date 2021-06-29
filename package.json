@@ -1,5 +1,5 @@
 {
-  "name": "json-dfs",
+  "name": "jsondfs",
   "version": "1.0.0",
   "description": "Run a dfs search query on a json array",
   "main": "index.js",

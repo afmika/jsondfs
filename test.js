@@ -1,4 +1,4 @@
-const jsondfs = require ('./json-dfs');
+const jsondfs = require ('./jsondfs');
 
 const values = [
 	{
@@ -32,7 +32,7 @@ console.log('# Test 1', jsondfs(datas, {
     max_depth : 100
 }));
 
-// supports regex
+// with regex
 console.log('# Test 2', jsondfs(datas, {
     keyword : '^B',
     max_depth : 100
