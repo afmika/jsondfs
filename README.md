@@ -8,9 +8,9 @@
 ```javascript
 const jsondfs = require ('jsondfs');
 const datas = [
-    {'id' : 0, 'name' : 'Carl', properties : [{a : {b : 'foo', m : 1}}, {i : am, home : 'hello'}]},
+    {'id' : 0, 'name' : 'Carl', properties : [{a : {b : 'no', m : 1}}, {i : 'am', home : 'hello'}]},
     {'id' : 1, 'name' : 'Bob'},
-    {'id' : 2, 'name' : 'Carlos', stats : {magic : 17, hp : 4, quest : [{special : 1}, 2, 3]}}
+    {'id' : 2, 'name' : 'Carlos', stats : {magic : 17, hp : 4, quest : [{special : 1, human : 'no'}, 2, 3]}}
 ];
 
 // basic
