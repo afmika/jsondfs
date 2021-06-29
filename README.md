@@ -28,7 +28,7 @@ console.log('# Test 2', jsondfs(datas, {
 
 ### Example 2
 ```javascript
-const jsondfs = require ('json-dfs');
+const jsondfs = require ('jsondfs');
 const datas = [
 	{
 		a : 2,
