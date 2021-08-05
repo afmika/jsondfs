@@ -1,6 +1,6 @@
 {
   "name": "jsondfs",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "description": "Run dfs on a json array",
   "main": "index.js",
   "scripts": {
