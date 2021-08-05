@@ -55,3 +55,15 @@ console.log('# Test 3', jsondfs(datas, {
 	max_depth : 10
 }));
 ```
+
+### Example 3
+```javascript
+// using a custom validator
+console.log('# Test 4', jsondfs(values, {
+	max_depth : 10,
+	validator : node_value => {
+		node_value += '';
+		return node_value.includes('hello'); 
+	}
+}));
+```
